@@ -18,7 +18,7 @@ body {
 	color: white;
 }
 img{
-	<img src="dep.jpg">
+	img src="dep.jpg";
 	vertical-align:buttom;
 	border-radius:10px;
 	width:550px;
