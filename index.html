@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" type="text/css" href="css/estilos.css ">
+<meta charset="utf-8"> 
+<?php 
+echo '
+<body >
+
+<div align="justify">
+<h2>Formulario Deportes</h2>
+<form action="" method="">
+<table>
+ 
+	<tr>
+	<td> Clave</td>
+	<td><input type="text" name="clave"></td>
+	</tr> 
+
+	<tr> 
+	<td>Descripcion</td>
+	<td><input type="text" name="descripcion"></td>
+	</tr>
+
+	<tr>
+	<td>Marca</td>
+	<td><select name="marca"> 
+    <option>Marca</option> 
+    <option value="Nike">Nike</option> 
+    <option value="Adidas">Adidas</option> 
+    <option value="Under armour">Under armour</option> 
+    <option value="Puma">Puma</option> 
+    <option value="Patito">Patito</option>  
+</select></td>
+	</tr>
+
+	<tr>
+	<td>Precio</td>
+	<td><input type="text" name="precio"></td>
+	</tr>
+
+	<tr>
+	<td>Talla</td>
+	<td><input type="radio" name="s" value="S/CH"/> S/CH
+   <td><input type="radio" name="m" value="M/M"/> M/M</td></td>
+   </tr>
+   <tr>
+   <td></td>
+   <td><input type="radio" name="l" value="L/G"/> L/G
+   <td><input type="radio" name="xl" value="XL/EG"/>   XL/EG </td></td>
+   </tr>
+
+   <tr>
+   <td>Descuento</td>
+   <td> <input type="checkbox" name="desc" value="5%">5%
+	<td><input type="checkbox" name="desc" value="30%">30% </td> </td>
+   </tr>
+   <tr>
+   <td></td>
+   <td> <input type="checkbox" name="desc" value="10%">10%
+	<td><input type="checkbox" name="desc" value="50%">50% </td> </td>
+   </tr>
+   <tr>
+   <td></td>
+   <td> <input type="checkbox" name="desc" value="15%">15%
+	<td><input type="checkbox" name="desc" value="70%">70% </td> </td>
+   </tr>
+
+   <tr>
+	<td aling="center"><input type="submit" value="Guardar..."></td>
+	<td aling="center"><input type="reset" value="Eliminar..."></td>
+	</tr>
+
+</table>
+</form>
+';
+ ?>
+ </html>
