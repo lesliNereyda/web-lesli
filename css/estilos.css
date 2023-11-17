@@ -16,5 +16,12 @@ body {
 	margin-right: 100;
 	margin-top: 50;
 	color: darkred;
-
+}
+img{
+	url(dep.jpg)
+	vertical-align:buttom;
+	border-radius:10px;
+	width:550px;
+	height:330px;
+	filter:drop-shadow(0 0 10px blue);
 }
